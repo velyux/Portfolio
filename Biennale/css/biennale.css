@@ -380,13 +380,13 @@ width: 100%;height: 529px;}
        
 .infrom:hover{transform: translate(0, -20%)scale(1.2);}
 
-.radius1{background: url(../imgs/projectA/Biennale/writer_06.png) 50% 50% no-repeat;
+.radius1{background: url(../imgs/writer_06.png) 50% 50% no-repeat;
          background-size: cover;}
-.radius2{ background: url(../imgs/projectA/Biennale/writer2_06.png) 50% 50% no-repeat;
+.radius2{ background: url(../imgs/writer2_06.png) 50% 50% no-repeat;
              background-size: cover;}
-.radius3{background: url(../imgs/projectA/Biennale/writer3_06.png) 50% 50% no-repeat;
+.radius3{background: url(../imgs/writer3_06.png) 50% 50% no-repeat;
         background-size: cover;}
-.radius4{ background: url(../imgs/projectA/Biennale/writer4_06.png) 50% 50% no-repeat;
+.radius4{ background: url(../imgs/writer4_06.png) 50% 50% no-repeat;
           background-size: cover;}
                  
        
