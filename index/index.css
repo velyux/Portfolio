@@ -401,7 +401,7 @@ margin-top: 40px;
      align-items: center;} 
  .skill{width: 60px;height: 60px;
         background-size: cover;
-        /* border-radius: 50%; */
+      
         
         }  
 .row .h1{background: url(imgs/skill01.PNG) center no-repeat;}                          
@@ -411,17 +411,28 @@ margin-top: 40px;
 .row .h5{background: url(imgs/skill05.PNG) center no-repeat;} 
 
 .text{margin: 0 auto;}
+.text h1{margin-top: 60px;}
 .infom{display: flex;
-        flex-direction: row;
-        margin: 136px 0 38px 30px;
+        flex-direction: column;
+        text-align: center;
         font-weight: 600;}
-.text p{font-weight: 600;}        
-.infom>div:nth-child(1){height: 40px; 
-                        border-right: 2px solid #f729b9;
-                        padding-right: 45px;
+        
+.text p{font-weight: 600;
+       text-align: center;
+       font-size: 1.5rem;
+       margin-top:50px ;} 
+.text p:nth-of-type(2){font-size: 1rem;}              
+.infom>div:nth-child(1){
+    margin-top:30px;
+               
                         } 
 
-.infom>div:nth-child(2){padding-right: 45px;
-                        
+.infom>div:nth-child(2){
+                        margin-top: 50px;
                         height: 40px;
-                        margin-left: 45px;}                               
+                        }                               
+.last{margin-top: 50px;}
+.last>h3{text-align: center;
+       }   
+.row{padding-left: 33px;
+    padding-top: 10px;}                     
