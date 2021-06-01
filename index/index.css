@@ -21,10 +21,7 @@ section.horizon{
 
 section.horizon .sec01{ background: #7CE1F1; }
 
-section.horizon .sec02{ background:
-     #0d1b57; 
-
-    }
+section.horizon .sec02{ background:#0d1b57;}
 section.horizon .sec03{ background: rgb(106, 123, 124); }
 section.horizon .sec04{ background: #000; }
 section.horizon .sec05{ background: #383A3F; }
@@ -85,39 +82,50 @@ section.horizon .sec05{ background: #383A3F; }
        color: #fff;
        transform: rotate(270deg);
        position: absolute; left: -12px;top:50%;
-       
-       
     }
+       
+       
 
 .index::after {content: "";
-background: #fff;
-width: 850px; height: 4px; position:absolute;
-top: 167%; left: -222%;
+               background: #fff;
+               width: 850px; height: 4px; position:absolute;
+               top: 167%; left: -222%;
+            }   
 
-}   
-.main{margin: 17% 0 0 10%;
-position: relative;}
-.main::after{content: "";
-background: #fff;
-border-radius: 10px;
-width: 420px; height: 4px;
-position: absolute; top: 471px; left: 610px;}
-.main::before{content: "";
+.main{
+    margin: 17% 0 0 10%;
+    position: relative;
+}
+.main::after{
+    content: "";
+    background: #fff;
+    border-radius: 10px;
+    width: 420px; height: 4px;
+    position: absolute; top: 471px; left: 610px;
+}
+.main::before{
+            content: "";
             background: #fff;
             border-radius: 10px;
             width: 50px; height: 4px;
             position: absolute; top: 455px;right: -64%;
-            transform: rotate(45deg);}
-.portfolio:after{content: "";
-width: 50px; height: 4px; background: #fff;
-border-radius: 10px; position: absolute; top: 489px; right: -64%;
-transform: rotate(-45deg);}                   
+            transform: rotate(45deg);
+        }
+.portfolio:after{
+            content: "";
+            width: 50px; height: 4px; background: #fff;
+            border-radius: 10px; position: absolute; top: 489px; right: -64%;
+            transform: rotate(-45deg);
+        }                   
 
-.main>div{ font-size: 9.5rem;
-           font-weight: bold;
-          color: #fff;}   
+.main>div{
+        font-size: 9.5rem;
+        font-weight: bold;
+        color: #fff;
+    }   
           
-.kyj{color: rgb(66, 66, 240);
+.kyj{
+    color: rgb(66, 66, 240);
     font-size: 1.3rem;
     font-weight: 700;
     text-align: center;
@@ -135,30 +143,35 @@ transform: rotate(-45deg);}
 }  
     
 
-.slidetab .bg{width: 75%;height: 800px;
-              margin: 2% 0 0 23%;
-             display: none;}
+.slidetab .bg{
+            width: 75%;height: 800px;
+            margin: 2% 0 0 23%;
+            display: none;
+        }
 
 .slidetab .bg.on{display: block;}
 
 .slidetab .on1{background: url(imgs/work1.png) center no-repeat;
-    background-size: cover;
-    background-color: rgb(233, 233, 242);
+               background-size: cover;
+               background-color: rgb(233, 233, 242);
 } 
     
     
     
   
-.slidetab .on2{background: url(imgs/pdf05.png)center no-repeat;
-background-size: cover;
+.slidetab .on2{
+            background: url(imgs/pdf05.png)center no-repeat;
+            background-size: cover;
 }  
 
-.slidetab .on3{background: url(imgs/work2.png) center no-repeat;
-background-size: cover;
-background-color: rgb(233, 233, 242);
+.slidetab .on3{
+    background: url(imgs/work2.png) center no-repeat;
+    background-size: cover;
+    background-color: rgb(233, 233, 242);
 }
 
-.slidetab .on4{background: url(imgs/pdf6.png) center no-repeat;
+.slidetab .on4{
+    background: url(imgs/pdf6.png) center no-repeat;
     background-size: cover;
     }
 
@@ -166,13 +179,14 @@ background-color: rgb(233, 233, 242);
   
     
                 
-.slidetab ul{ width: 17%;height: 350px;
+.slidetab ul{ 
+    width: 17%;height: 350px;
     background-color: rgb(162, 194, 194);
     margin-top: 15%;
     position: absolute;
     left:15%;
     z-index: 5;
-    box-shadow: 5px 8px 9px #505155;
+    box-shadow: 5px 8px 6px #505155;
     
 }
 .slidetab ul li i{margin-left: 20px;}
@@ -181,34 +195,39 @@ background-color: rgb(233, 233, 242);
 
 .sec02>div>ul{background-color: rgb(161, 195, 245);}
 
-.slidetab ul li{list-style: none;}
-.slidetab ul li:first-child{font-size: 1.5rem;
-color: rgb(248, 248, 250);
-font-weight: bold;
-padding: 0;
-cursor: pointer;
-margin-top: 40px;
-
-
+.slidetab ul li{
+    list-style: none;}
+.slidetab ul li:first-child{
+    font-size: 1.5rem;
+    color: rgb(248, 248, 250);
+    font-weight: bold;
+    padding: 0;
+    cursor: pointer;
+    margin-top: 40px;
 }
+
+
 .slidetab ul li:first-child:hover{color: dimgray;}
-.slidetab ul li:nth-of-type(2){font-size: 2rem;
+.slidetab ul li:nth-of-type(2){
+    font-size: 2rem;
     margin-top: 40px;
     cursor: pointer;
+    color: #fff;
+}
    
-     color: #fff;}
 .slidetab ul li:nth-of-type(2):hover{color: dimgray;}               
 .slidetab ul li:nth-of-type(3){margin-top:40px}
 .slidetab ul li:last-child{margin-top: 40px;}
 
 
-.slidetab ul li a{text-decoration: none;
-             color: #fff;
+.slidetab ul li a{
+            text-decoration: none;
+            color: #fff;
             font-size: 2rem;
-      
             text-align: center;}
+      
 
-        .swiper-wrapper span {
+.swiper-wrapper span {
                 height: 50px;
                 width: 50px;
                 border-radius: 50%;
@@ -222,7 +241,7 @@ margin-top: 40px;
               }
               
               
-              @keyframes blow {
+@keyframes blow {
                 0% {
                   transform: translate(-50%, -50%);
                   opacity: 1;
@@ -245,15 +264,16 @@ margin-top: 40px;
             margin: 60px auto;}   
             
 .tabV{width: 100%; 
-      height: 850px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    overflow: hidden;
-    background:#f8b7e4;
+     height: 850px;
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     overflow: hidden;
+     background:#f8b7e4;
+    }   
     
-}   
-.tabV ul li {list-style: none;
+.tabV ul li {
+            list-style: none;
             font-size: 3rem;}
 .tabV ul{
     
@@ -356,34 +376,17 @@ margin-top: 40px;
 .addbox{margin: 0 auto;}
 .conBox>div>h1{text-align: center;
                font-size: 2.2rem;
-               color: rgb(233, 95, 221);}
+               color: rgb(233, 95, 221);
+            }
+.email h3{font-size: 2.5rem;
+          margin-top: 30px;
+          text-align: center;
+          margin-top: 150px;
+        } 
+.email h3:hover{color: #f76cb1;}    
 
-.email{display: flex;
-       flex-direction: row;}   
-.email h3{ margin-right: 107px;}
-.email h3:nth-of-type(1){margin-left: 86px;}     
-.input p:nth-of-type(1){margin-left: 86px;}         
- .input p{margin-right: 50px;} 
 
-.input{display: flex;
-       flex-direction: row;} 
-.input input{border: none;
-             background-color: #f8b7e4;
-             width: 239px;
-             border-bottom:2px solid #f729b9;
-             padding: 7px;}  
-.address {margin-left: 86px;}             
-.address input{border: none;
-               width: 530px;
-               border-bottom: 2px solid #f729b9;
-               background-color: #f8b7e4;
-               padding: 7px;}   
-.message{margin-left: 86px;
-         margin-top: 50px;}            
-.message input{border: 2px solid #f729b9;
-               background-color: #f8b7e4;
-               width: 530px; height: 100px;
-               }  
+
 .sub{margin-left: 45%;
      margin-top: 50px;}               
 .sub input{ width: 30%; height: 50px;
@@ -401,9 +404,9 @@ margin-top: 40px;
      align-items: center;} 
  .skill{width: 60px;height: 60px;
         background-size: cover;
+    }  
       
         
-        }  
 .row .h1{background: url(imgs/skill01.PNG) center no-repeat;}                          
 .row .h2{background: url(imgs/skill02.PNG) center no-repeat;}                          
 .row .h3{background: url(imgs/skill03.PNG) center no-repeat;}                          
@@ -412,16 +415,21 @@ margin-top: 40px;
 
 .text{margin: 0 auto;}
 .text h1{margin-top: 60px;}
-.infom{display: flex;
-        flex-direction: column;
-        text-align: center;
-        font-weight: 600;}
+.infom{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 600;
+}
         
-.text p{font-weight: 600;
-       text-align: center;
-       font-size: 1.5rem;
-       margin-top:50px ;} 
-.text p:nth-of-type(2){font-size: 1rem;}              
+.text p{
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top:50px ;
+} 
+.text p:nth-of-type(2){
+    font-size: 1rem;}              
 .infom>div:nth-child(1){
     margin-top:30px;
                
@@ -431,8 +439,13 @@ margin-top: 40px;
                         margin-top: 50px;
                         height: 40px;
                         }                               
-.last{margin-top: 50px;}
-.last>h3{text-align: center;
+.last{
+    margin-top: 50px;
+}
+.last>h3{
+    text-align: center;
        }   
-.row{padding-left: 33px;
-    padding-top: 10px;}                     
+.row{
+    padding-left: 33px;
+    padding-top: 10px;
+}       
